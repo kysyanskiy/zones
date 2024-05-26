@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP zone</title>
+    <link rel="stylesheet" href="vip.css">
+    <link rel="icon" type="image/png" href="photo/64px.png">
+</head>
+<body>
+    <div class="header">
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="title"><b>RAGE CLUB</b></div>
+    </div>
+
+    <div class="menu" id="menu">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="contact.html">Контакти</a>
+    </div>
+
+    <div class="content">
+        <div class="zone-details">
+            <h2>VIP</h2>
+            <ul>
+                <li><b>Монітор:</b> LG UltraGear IPS 27" 240Hz 1ms</li>
+                <li><b>Процесор:</b> Intel Core i5 12th gen</li>
+                <li><b>Відеокарта:</b> Gigabyte GeForce RTX 4070 Gaming 3X 12288Mb</li>
+                <li><b>Оперативна пам'ять:</b> HyperX DDR4 16GB 2666Mhz Fury Black</li>
+                <li><b>Ігрові крісла:</b> Cougar Armor S</li>
+                <li><b>Ігрова мишка:</b> HATOR Pulsar</li>
+                <li><b>Ігрова клавіатура:</b> Cougar ATTACK X3 Iron gray</li>
+                <li><b>Ігрова гарнітура: HATOR Hypergang EVO</li>
+                <li><b>Ігрова поверхня:</b> Evolve OnePad</li>
+            </ul>
+            <a href="primer.html" class="back-button">Назад</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <cite>&copy; made by.kusyanskiy/Melnychenko, 2024рік</cite>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</body>
+</html>

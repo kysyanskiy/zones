@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGE CLUB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="photo/64px.png">
+</head>
+<body>
+    <div class="header">
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="title"><b>RAGE CLUB</b></div>
+    </div>
+
+    <div class="menu" id="menu">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="contact.html">Контакти</a>
+    </div>
+    <div class="container">
+        <div class="zone">
+            <img src="premium.png" alt="Ігрова Зона 1" class="zone-image">
+            <h2>Premium zone</h2>
+            <p>34 ПК категорії <cite>Premium</cite> розташовані у трьох різних залах</p>
+            <a href="page1.html" class="zone-button">Детальніше</a>
+        </div>
+        <div class="zone">
+            <img src="vip.png" alt="Ігрова Зона 2" class="zone-image">
+            <h2>VIP zone</h2>
+            <p>6 ПК категорії <cite>VIP</cite> розташовані в окремих кімнатах</p>
+            <a href="vip.html" class="zone-button">Детальніше</a>
+        </div>
+        <div class="zone">
+            <img src="bootcamp.png" alt="Ігрова Зона 3" class="zone-image">
+            <h2>Bootcamp zone</h2>
+            <p>Це місце стане справжнім тренувальним табором для п'ятьох гравців. Кімната відділена від решти зали.</p>
+            <a href="page3.html" class="zone-button">Детальніше</a>
+        </div>
+        <div class="zone">
+            <img src="luxe.png" alt="Ігрова Зона 4" class="zone-image">
+            <h2>Luxe zone</h2>
+            <p>Місце де можна пограти з друзями в PS5/PS4, або просто подивитись фільми</p>
+            <a href="luxe.html" class="zone-button">Детальніше</a>
+        </div>
+    </div>
+    <div class="footer">
+        <cite>&copy; made by.kusyanskiy/Melnychenko, 2024рік</cite>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</body>
+</html>

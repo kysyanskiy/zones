@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1548214079-50eccb4e0a32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #5a189a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header .burger-menu {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header .burger-menu div {
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: #5a189a;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: #6a0dad;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.zone {
+    background-color:rgba(74, 74, 74, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.zone img.zone-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.zone h2 {
+    font-size: 20px;
+    color: #d4a5f4;
+}
+
+.zone p {
+    font-size: 17 px;
+}
+
+.zone-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.zone-button:hover {
+    background-color: #5a189a;
+}
+
+.footer {
+    background-color: #5a189a;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

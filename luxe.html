@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe zone</title>
+    <link rel="stylesheet" href="luxe.css">
+    <link rel="icon" type="image/png" href="photo/64px.png">
+</head>
+<body>
+    <div class="header">
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="title"><b>RAGE CLUB</b></div>
+    </div>
+
+    <div class="menu" id="menu">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="contact.html">Контакти</a>
+    </div>
+
+    <div class="content">
+        <div class="zone-details">
+            <h2>LUXE</h2>
+            <ul>
+                <li><b>Телевізор</b>Samsung 65" 4k</li>
+                <li><b>Ігрова консоль:</b> Sony PlayStation 4, Sony PlayStation 5</li>
+                <li><b>Аудіосистема:</b>Yamaha NS-F51 & NS-P51</li>
+                <li><b>Сабвуфер:</b> Yamaha NS-SW200</li>
+            </ul>
+            <a href="primer.html" class="back-button">Назад</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <cite>&copy; made by.kusyanskiy/Melnychenko, 2024рік</cite>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.style.display = (menu.style.display === "block") ? "none" : "block";
+        }
+    </script>
+</body>
+</html>
